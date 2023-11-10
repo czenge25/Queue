@@ -22,6 +22,10 @@ public class QueueNode<T> {
         return child;
     }
 
+    public void setChild(QueueNode n) {
+        child = n;
+    }
+
     //Returns the data stored in the node
     public T getData() {
         return data;
