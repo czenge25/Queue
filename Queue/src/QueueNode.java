@@ -18,6 +18,10 @@ public class QueueNode<T> {
         this.child = child;
     }
 
+    public QueueNode getChild() {
+        return child;
+    }
+
     //Returns the data stored in the node
     public T getData() {
         return data;
