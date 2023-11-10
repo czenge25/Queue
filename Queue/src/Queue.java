@@ -4,4 +4,8 @@ public class Queue {
     private QueueNode front;
     private QueueNode back;
 
+    public Queue() {
+
+    }
+
 }
