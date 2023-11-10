@@ -1,6 +1,6 @@
 public class QueueNode<T> {
     private T data; //Data stored in the node
-    private QueueNode parent; //Reference to the parent node
+    private QueueNode child; //Reference to the parent node
 
     //Default constructor
     public QueueNode() {
@@ -12,10 +12,10 @@ public class QueueNode<T> {
         this.data = data;
     }
 
-    //Constructor that sets data, parent, and child
-    public QueueNode(T data, QueueNode parent) {
+    //Constructor that sets data, and child
+    public QueueNode(T data, QueueNode child) {
         this.data = data;
-        this.parent = parent;
+        this.child = child;
     }
 
     //Returns the data stored in the node
