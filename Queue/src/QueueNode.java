@@ -1,6 +1,6 @@
 public class QueueNode<T> {
     private T data; //Data stored in the node
-    private QueueNode child; //Reference to the parent node
+    private QueueNode<T> child; //Reference to the parent node
 
     //Default constructor
     public QueueNode() {
